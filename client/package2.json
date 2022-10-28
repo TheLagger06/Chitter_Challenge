@@ -1,0 +1,45 @@
+{
+  "name": "industrypartner-backend",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "SET NODE_ENV=production&& nodemon server.js",
+    "start-mac": "NODE_ENV=test nodemon app",
+    "test-win": "SET NODE_ENV=test&& mocha --timeout 10000 --exit",
+    "test-mac": "NODE_ENV=test mocha --timeout 10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Engineering-Project/IndustryPartner-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Engineering-Project/IndustryPartner-BackEnd/issues"
+  },
+  "homepage": "https://github.com/Team-Engineering-Project/IndustryPartner-BackEnd#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cogo-toast": "^4.2.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19",
+    "react-toastify": "^9.0.8",
+    "redis": "^4.3.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}
